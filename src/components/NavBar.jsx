@@ -6,10 +6,14 @@ const NavBar = () => {
   return (
     <Flex
       width="100%"
-      h="6rem"
+      h="7rem"
       alignItems="center"
       justifyContent="space-between"
       paddingX="10rem"
+      position="fixed"
+      top="0"
+     
+      backdropFilter="blur(15px)"
     >
       <>
         <RouterLink to="/">
@@ -34,7 +38,10 @@ const NavBar = () => {
             Contact
           </Link>
         </RouterLink>
-        <IconButton onClick={toggleColorMode} icon={colorMode === 'light' ?<MoonIcon />:<SunIcon/>} />
+        <IconButton
+          onClick={toggleColorMode}
+          icon={colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+        />
       </Flex>
     </Flex>
   );
