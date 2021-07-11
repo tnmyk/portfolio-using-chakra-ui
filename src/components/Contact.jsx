@@ -9,7 +9,7 @@ import {
   InputLeftElement,
   Text,
   Textarea,
-  useColorMode,
+  
   useColorModeValue,
 } from '@chakra-ui/react';
 
