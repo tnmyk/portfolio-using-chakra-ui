@@ -9,19 +9,19 @@ import {
   InputLeftElement,
   Text,
   Textarea,
+  useColorMode,
   useColorModeValue,
 } from '@chakra-ui/react';
-import HCaptcha from '@hcaptcha/react-hcaptcha';
 
-import {IoIosContact} from 'react-icons/io'
+import { IoIosContact } from 'react-icons/io';
 const Contact = () => {
-  const onVerifyCaptcha =()=>{
-      
-  }
-    return (
-    <Box mt="4rem">
+ 
+
+  return (
+    <Box mt="4rem" >
       <Heading>Contact me</Heading>
       <Text mx="0.2rem">Let's start building something together</Text>
+      <Box width='max-content'  ml='1rem'>
       <form
         action="https://formsubmit.co/tanmaykachroo@gmail.com"
         method="POST"
@@ -47,7 +47,7 @@ const Contact = () => {
             type="text"
             name="name"
             placeholder="Your Name"
-            w="20rem"
+            w="md"
             isRequired
           />
         </InputGroup>
@@ -59,25 +59,23 @@ const Contact = () => {
             name="email"
             placeholder="Email"
             isRequired
-            width="20rem"
+            w="md"
           />
         </InputGroup>
         <Textarea
           name="message"
           variant="filled"
-          w="20rem"
+          w="md"
+          h='7rem'
           mt="1rem"
           placeholder="Message"
         ></Textarea>{' '}
         <br />
-        <HCaptcha
-          sitekey="783794fa-137e-4267-b64a-1e9ba336c2ad"
-          onVerify={onVerifyCaptcha}
-        />
         <Button mt="1rem" type="submit">
           Send
         </Button>
       </form>
+      </Box>
     </Box>
   );
 };

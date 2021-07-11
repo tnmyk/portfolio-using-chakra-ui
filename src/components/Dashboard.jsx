@@ -6,7 +6,7 @@ import Project from './Project';
 const Dashboard = () => {
   return (
     <Box width="60%" marginX="auto" pb="5rem">
-      <Heading mt="3rem" fontSize="5xl">
+      <Heading mt="5rem" fontSize="5xl">
         Hi! I m Tanmay 👋
       </Heading>
       <Text
