@@ -5,6 +5,7 @@ const NavBar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
     <Flex
+      zIndex="1000"
       width="100%"
       h="7rem"
       alignItems="center"
@@ -12,7 +13,6 @@ const NavBar = () => {
       paddingX="10rem"
       position="fixed"
       top="0"
-     
       backdropFilter="blur(15px)"
     >
       <>
@@ -23,21 +23,25 @@ const NavBar = () => {
         </RouterLink>
       </>
       <Flex alignItems="center">
-        <RouterLink to="/">
-          <Link fontSize="md" fontWeight="medium" mr="2rem">
-            Dashboard
-          </Link>
-        </RouterLink>
-        <RouterLink to="/">
-          <Link fontSize="md" fontWeight="medium" mr="2rem">
+        <Link
+          as={RouterLink}
+          to="/"
+          fontSize="md"
+          fontWeight="medium"
+          mr="2rem"
+        >
+          Dashboard
+        </Link>
+        
+          <Link to='/timeline' as={RouterLink} fontSize="md" fontWeight="medium" mr="2rem">
             Timeline
           </Link>
-        </RouterLink>
-        <RouterLink to="/">
-          <Link fontSize="md" fontWeight="medium" mr="2rem">
+        
+        
+          <Link to='/contact' as={RouterLink} fontSize="md" fontWeight="medium" mr="2rem">
             Contact
           </Link>
-        </RouterLink>
+        
         <IconButton
           onClick={toggleColorMode}
           icon={colorMode === 'light' ? <MoonIcon /> : <SunIcon />}

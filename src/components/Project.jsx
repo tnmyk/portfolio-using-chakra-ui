@@ -8,7 +8,7 @@ const Project = ({ title, snippet }) => {
       mx="1.5rem"
       my="2rem"
       boxShadow="base"
-      p="4"
+      p="6"
       borderRadius="lg"
       border="1px"
       borderColor={useColorModeValue('gray.200', 'gray.600')}

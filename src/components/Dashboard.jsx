@@ -1,17 +1,25 @@
-import { Box, Heading, ListItem, Text, UnorderedList, useColorModeValue } from '@chakra-ui/react';
+import {
+  Box,
+  Button,
+  Heading, ListItem,
+  Text,
+  UnorderedList,
+  useColorModeValue
+} from '@chakra-ui/react';
+import { Link as RouterLink } from 'react-router-dom';
 import { projects } from '../data/projects';
 import Contact from './Contact';
 import Project from './Project';
+import TimelineContainer from './TimelineContainer';
 
 const Dashboard = () => {
   return (
-    <Box width="60%" marginX="auto" pb="5rem">
+    <Box>
       <Heading mt="5rem" fontSize="5xl">
         Hi! I m Tanmay 👋
       </Heading>
       <Text
         mt="1rem"
-        f
         fontSize="lg"
         color={useColorModeValue('gray.600', 'gray.300')}
       >
@@ -22,8 +30,8 @@ const Dashboard = () => {
       <Heading mt="4rem" fontSize="4xl">
         Skills
       </Heading>
-      <Box color={useColorModeValue('gray.700', 'gray.300')} mt="1rem" ml="1rem">
-        <Text fontSize="lg" fontWeight="bold">
+      <Box color={useColorModeValue('gray.700', 'gray.300')} ml="1rem">
+        <Text fontSize="lg" fontWeight="bold" mt="1rem">
           Web Development
         </Text>
         <UnorderedList ml="2.5rem" mt="0.5rem">
@@ -34,13 +42,40 @@ const Dashboard = () => {
           <ListItem>HTML</ListItem>
           <ListItem>CSS</ListItem>
         </UnorderedList>
+        <Text fontSize="lg" fontWeight="bold" mt="1rem">
+          Desktop Application Development
+        </Text>
+        <UnorderedList ml="2.5rem" mt="0.5rem">
+          <ListItem>Electron.js</ListItem>
+        </UnorderedList>
       </Box>
+      <Heading mt="3rem" fontSize="4xl">
+        Timeline
+      </Heading>
+      <TimelineContainer limit={2}/>
+      <RouterLink to="/timeline">
+        <Button
+          color={useColorModeValue('black', 'white')}
+          colorScheme="gray"
+          ml="2rem"
+          mt="1rem"
+        >
+          See Full Timeline ⌚
+        </Button>
+      </RouterLink>
+
       <Heading mt="3rem" fontSize="4xl">
         Projects
       </Heading>
       <Box>
         {projects.map(project => {
-          return <Project title={project.title} snippet={project.snippet} />;
+          return (
+            <Project
+              title={project.title}
+              snippet={project.snippet}
+              key={Math.random()}
+            />
+          );
         })}
       </Box>
       <Contact />

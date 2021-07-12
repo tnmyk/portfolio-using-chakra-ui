@@ -28,7 +28,7 @@ const Contact = () => {
           <input
             type="hidden"
             name="_next"
-            value="http://localhost:3000/"
+            value="https://tanmay.vercel.app/"
           ></input>
           <InputGroup my="1rem">
             <InputLeftElement
@@ -58,6 +58,8 @@ const Contact = () => {
               placeholder="Email"
               isRequired
               w="md"
+              // bgColor="gray.900"
+              // _hover={{ bgColor: 'gray.800' }}
             />
           </InputGroup>
           <Textarea
@@ -67,7 +69,7 @@ const Contact = () => {
             h="7rem"
             mt="1rem"
             placeholder="Message"
-          ></Textarea>{' '}
+          ></Textarea>
           <br />
           <Button mt="1rem" type="submit">
             Send
