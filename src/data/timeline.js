@@ -1,30 +1,11 @@
 export const timeline = [
   {
-    date: '20 September, 2021',
-    body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptas quae, veniam sed, id eveniet necessitatibus dolorum veritatis beatae totam quasi nulla. Placeat itaque optio molestiae possimus natus corrupti voluptatibus!',
+    date: '10 July, 2021',
+    body: "Finished building 'Portfolio Builder'. ",
   },
   {
-    date: '20 September, 2021',
-    body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptas quae, veniam sed, id eveniet necessitatibus dolorum veritatis beatae totam quasi nulla. Placeat itaque optio molestiae possimus natus corrupti voluptatibus!',
+    date: '28 June, 2021',
+    body: "After learning React.js, started building 'Portfolio Builder' with React.js, Firebase etc.",
   },
-  {
-    date: '20 September, 2021',
-    body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptas quae, veniam sed, id eveniet necessitatibus dolorum veritatis beatae totam quasi nulla. Placeat itaque optio molestiae possimus natus corrupti voluptatibus!',
-  },
-  {
-    date: '20 September, 2021',
-    body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptas quae, veniam sed, id eveniet necessitatibus dolorum veritatis beatae totam quasi nulla. Placeat itaque optio molestiae possimus natus corrupti voluptatibus!',
-  },
-  {
-    date: '20 September, 2021',
-    body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptas quae, veniam sed, id eveniet necessitatibus dolorum veritatis beatae totam quasi nulla. Placeat itaque optio molestiae possimus natus corrupti voluptatibus!',
-  },
-  {
-    date: '20 September, 2021',
-    body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptas quae, veniam sed, id eveniet necessitatibus dolorum veritatis beatae totam quasi nulla. Placeat itaque optio molestiae possimus natus corrupti voluptatibus!',
-  },
-  {
-    date: '20 September, 2021',
-    body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptas quae, veniam sed, id eveniet necessitatibus dolorum veritatis beatae totam quasi nulla. Placeat itaque optio molestiae possimus natus corrupti voluptatibus!',
-  },
+ 
 ];
