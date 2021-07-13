@@ -2,12 +2,10 @@ import {
   Flex,
   Icon,
   Link,
-  Text,
-  useColorMode,
-  useColorModeValue,
-  VStack,
+  Text, useColorModeValue,
+  VStack
 } from '@chakra-ui/react';
-import { AiOutlineTwitter, AiOutlineGithub } from 'react-icons/ai';
+import { AiOutlineGithub, AiOutlineTwitter } from 'react-icons/ai';
 const Footer = () => {
   return (
     <Flex
