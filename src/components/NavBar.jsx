@@ -1,6 +1,5 @@
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import {
-  Button,
   Drawer,
   DrawerBody,
   DrawerCloseButton,
@@ -14,9 +13,9 @@ import {
   useColorMode,
   useColorModeValue,
   useDisclosure,
-  VStack,
+  VStack
 } from '@chakra-ui/react';
-import {BiMenuAltRight} from 'react-icons/bi'
+import { BiMenuAltRight } from 'react-icons/bi';
 import { Link as RouterLink } from 'react-router-dom';
 const NavBar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
