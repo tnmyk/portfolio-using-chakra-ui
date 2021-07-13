@@ -18,7 +18,7 @@ const Contact = () => {
     <Box mt="4rem">
       <Heading>Contact me</Heading>
       <Text mx="0.2rem">Let's start building something together</Text>
-      <Box width="max-content" ml="1rem">
+      <Box width={["100%",'65%']} mt='1rem' ml="1rem">
         <form
           action="https://formsubmit.co/tanmaykachroo@gmail.com"
           method="POST"
@@ -45,7 +45,7 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Your Name"
-              w="md"
+              w="90%"
               isRequired
             />
           </InputGroup>
@@ -57,7 +57,7 @@ const Contact = () => {
               name="email"
               placeholder="Email"
               isRequired
-              w="md"
+              w="90%"
               // bgColor="gray.900"
               // _hover={{ bgColor: 'gray.800' }}
             />
@@ -65,7 +65,7 @@ const Contact = () => {
           <Textarea
             name="message"
             variant="filled"
-            w="md"
+            w="90%"
             h="7rem"
             mt="1rem"
             placeholder="Message"

@@ -1,18 +1,11 @@
-import { Box, Heading, Text } from '@chakra-ui/react';
+import { Flex, Heading, Text } from '@chakra-ui/react';
 
 const Error = () => {
   return (
-    <Box
-      position="absolute"
-      transform="auto"
-      top="50%"
-      left="50%"
-      translateX="-50%"
-      translateY="-50%"
-    >
+    <Flex alignItems='center' justifyContent='center' height='50vh' flexDir='column'>
       <Heading size="4xl">404</Heading>
-      <Text fontSize='sm'>Page does not exist</Text>
-    </Box>
+      <Text fontSize="sm">Page does not exist</Text>
+    </Flex>
   );
 };
 
