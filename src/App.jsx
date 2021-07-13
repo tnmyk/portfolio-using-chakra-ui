@@ -1,15 +1,22 @@
-import { Box, useColorModeValue } from '@chakra-ui/react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {
+  Box, useColorModeValue
+} from '@chakra-ui/react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom';
 import Dashboard from './components/Dashboard';
+import Error from './components/Error';
 import NavBar from './components/NavBar';
 import ProjectPage from './components/ProjectPage';
 import ScrollToTop from './components/ScrollToTop';
 import Timeline from './components/Timeline';
 const App = () => {
+  
   return (
     <Router>
-      
-      <ScrollToTop />
+      <ScrollToTop  />
       <NavBar />
       <Box
         minH="100vh"
@@ -18,9 +25,20 @@ const App = () => {
         bgColor={useColorModeValue('white', 'black')}
       >
         <Box width="60%" marginX="auto">
-          <Route exact path="/" component={Dashboard} />
-          <Route exact path="/timeline" component={Timeline} />
-          <Route exact path="/projects/:project" component={ProjectPage} />
+         
+        
+              <Switch>
+                <Route exact path="/" component={Dashboard} />
+                <Route exact path="/timeline" component={Timeline} />
+                <Route
+                  exact
+                  path="/projects/:project"
+                  component={ProjectPage}
+                />
+                <Route exact path="*" component={Error} />
+              </Switch>
+          
+         
         </Box>
       </Box>
     </Router>
