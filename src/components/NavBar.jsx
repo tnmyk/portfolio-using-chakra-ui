@@ -38,9 +38,10 @@ const NavBar = () => {
           </Link>
         
         
-          <Link to='/contact' as={RouterLink} fontSize="md" fontWeight="medium" mr="2rem">
+          <Link to='/#contact' as={RouterLink} fontSize="md" fontWeight="medium" mr="2rem">
             Contact
           </Link>
+          
         
         <IconButton
           onClick={toggleColorMode}

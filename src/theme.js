@@ -42,12 +42,15 @@ const Textarea = {
 };
 const Link = {
   baseStyle: {
-    
     outline: 'none',
     _focus: { boxShadow: 'none' },
   },
 };
 const myTheme = extendTheme({
+  config: {
+    useSystemColorMode: false,
+    initialColorMode: "dark"
+  },
   components: {
     Input,
     Textarea,

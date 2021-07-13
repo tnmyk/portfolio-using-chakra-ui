@@ -13,6 +13,7 @@ import Project from './Project';
 import TimelineContainer from './TimelineContainer';
 
 const Dashboard = () => {
+  
   return (
     <Box>
       <Heading mt="5rem" fontSize="5xl">
@@ -52,7 +53,7 @@ const Dashboard = () => {
       <Heading mt="3rem" fontSize="4xl">
         Timeline
       </Heading>
-      <TimelineContainer limit={2}/>
+      <TimelineContainer limit={2} />
       <RouterLink to="/timeline">
         <Button
           color={useColorModeValue('black', 'white')}
@@ -78,6 +79,7 @@ const Dashboard = () => {
           );
         })}
       </Box>
+      <div id="contact"></div>
       <Contact />
     </Box>
   );

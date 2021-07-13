@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import NavBar from './components/NavBar';
 import ProjectPage from './components/ProjectPage';
-import ScrollToTop from './components/ScrollToTop'
+import ScrollToTop from './components/ScrollToTop';
 import Timeline from './components/Timeline';
 const App = () => {
   return (
     <Router>
+      
       <ScrollToTop />
       <NavBar />
       <Box
