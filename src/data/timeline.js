@@ -4,6 +4,10 @@ const B =({children})=>{
 
 export const timeline = [
   {
+    date: '15 July, 2021',
+    body: 'Started learning Next.js',
+  },
+  {
     date: '12 July, 2021',
     body: 'Started learning data structures and algorithms.',
   },
