@@ -17,7 +17,7 @@ export const projectsData = {
       </>
     ),
   },
-  'Learn DSA Web App(MVP ready)': {
+  'learn-dsa-web-app(mvp-ready)': {
     name: 'Learn DSA Web App(MVP ready)',
     date: '19 June, 2021',
     productUrl: 'https://learn-dsa.vercel.app/',
