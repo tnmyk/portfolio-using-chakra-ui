@@ -1,6 +1,6 @@
 export const projects = [
   {
-     {
+     
     title: 'Learn DSA Web App(MVP ready)',
     snippet: (
       <>
@@ -9,7 +9,7 @@ export const projects = [
         <strong>More to come soon.</strong>
       </>
     ),
-  },
+  },{
     title: 'Portfolio Builder',
     snippet: (
       <>
