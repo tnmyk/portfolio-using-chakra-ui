@@ -49,7 +49,12 @@ const Link = {
 const myTheme = extendTheme({
   config: {
     useSystemColorMode: false,
-    initialColorMode: "dark"
+    initialColorMode: 'dark',
+  },
+  styles: {
+    global: {
+      
+    },
   },
   components: {
     Input,
