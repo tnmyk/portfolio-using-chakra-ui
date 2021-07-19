@@ -5,7 +5,7 @@ export const projects = [
     snippet: (
       <>
         Currently under development using <strong>Next.js</strong>, <strong>React.js</strong>, <strong>Chakra UI</strong>. 
-         In the app students can mark their progress using the checklist tab, learn from the code snippets, visualize the topics through the graph.
+         In the app students can mark their progress using the topic-wise checklist tab, learn from the code snippets and visualize the topics through the graph. 
         <strong>More to come soon.</strong>
       </>
     ),
