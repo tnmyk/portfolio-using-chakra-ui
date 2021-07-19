@@ -1,6 +1,6 @@
 import { Box, Text, useColorModeValue } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
-import {FiExternalLink} from 'react-icons/fi'
+import { FiExternalLink } from 'react-icons/fi';
 const Project = ({ title, snippet, productUrl }) => {
   const snippetColor = useColorModeValue('gray.700', 'gray.300');
   const titleColor = useColorModeValue('gray.800', 'gray.200');
@@ -28,12 +28,15 @@ const Project = ({ title, snippet, productUrl }) => {
           <span
             style={{
               marginTop: '1rem',
-              
+
               fontWeight: 'bold',
               textDecoration: 'underline',
             }}
           >
-            See Product <FiExternalLink style={{display:'inline-flex',marginRight: '1rem',}}/>
+            See Product{' '}
+            <FiExternalLink
+              style={{ display: 'inline-flex', marginRight: '2.5rem' }}
+            />
           </span>
         </a>
         <RouterLink
