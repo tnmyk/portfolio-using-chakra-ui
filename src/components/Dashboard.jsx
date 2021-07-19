@@ -5,7 +5,7 @@ import {
   ListItem,
   Text,
   UnorderedList,
-  useColorModeValue
+  useColorModeValue,
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
 import Contact from './Contact';
@@ -24,8 +24,9 @@ const Dashboard = () => {
         color={useColorModeValue('gray.600', 'gray.300')}
       >
         I'm a developer and designer based in India.
-        <br /> I'm a React.js enthusiast and very interested in Ux/Ui Designing.{' '}
-        <br /> I'm always thinking about startups.
+        <br /> I'm recently started ❤ing React.js. I also like UX/UI Designing
+        my own products. <br /> I'm always thinking about creating new and
+        better products.
       </Text>
       <Heading mt="4rem" fontSize="4xl">
         Skills
@@ -36,11 +37,14 @@ const Dashboard = () => {
         </Text>
         <UnorderedList ml="2.5rem" mt="0.5rem">
           <ListItem>React.js</ListItem>
+          <ListItem>Next.js</ListItem>
+          <ListItem>Chakra UI</ListItem>
           <ListItem>Node.js</ListItem>
           <ListItem>Firebase</ListItem>
           <ListItem>Javascript</ListItem>
           <ListItem>HTML</ListItem>
           <ListItem>CSS</ListItem>
+          <ListItem>Sometimes I also use MongoDB, C++, Python etc.</ListItem>
         </UnorderedList>
         <Text fontSize="lg" fontWeight="bold" mt="1rem">
           Desktop Application Development
