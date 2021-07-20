@@ -30,10 +30,7 @@ const Dashboard = () => {
         better products.
       </Text>
       <a href="/tanmay-kachroo-resume.pdf" target="_blank" rel="noreferrer">
-        
-        <Button>
-          My Resume 📗
-        </Button>
+        <Button>My Resume 📗</Button>
       </a>
       <Heading mt="2rem" fontSize="4xl">
         Skills
@@ -59,6 +56,12 @@ const Dashboard = () => {
         <UnorderedList ml="2.5rem" mt="0.5rem">
           <ListItem>Electron.js</ListItem>
         </UnorderedList>
+        <Text fontSize="lg" fontWeight="bold" mt="1rem">
+          UX/UI
+        </Text>
+        <UnorderedList ml="2.5rem" mt="0.5rem">
+          <ListItem>Figma</ListItem>
+        </UnorderedList>
       </Box>
       <Heading mt="3rem" fontSize="4xl">
         Timeline
@@ -78,7 +81,7 @@ const Dashboard = () => {
       <Heading mt="3rem" fontSize="4xl">
         Projects
       </Heading>
-      <ProjectsContainer limit="2" />
+      <ProjectsContainer limit="3" />
       <RouterLink to="/projects">
         <Button
           color={useColorModeValue('black', 'white')}

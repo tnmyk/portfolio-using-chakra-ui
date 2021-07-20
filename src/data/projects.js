@@ -6,11 +6,12 @@ export const projects = [
         Currently under development using <strong>Next.js</strong>,{' '}
         <strong>React.js</strong>, <strong>Chakra UI</strong>. In the app
         students can mark their progress using the topic-wise checklist tab,
-        learn from the code snippets and visualize the topics through the graph.
-        {" "} <strong>More to come soon.</strong>
+        learn from the code snippets and visualize the topics through the graph.{' '}
+        <strong>More to come soon.</strong>
       </>
     ),
     productUrl: 'https://learn-dsa.vercel.app/',
+    detailPage: 'true',
   },
   {
     title: 'Portfolio Builder',
@@ -22,6 +23,33 @@ export const projects = [
         and other important details.
       </>
     ),
+    detailPage: 'true',
+
     productUrl: 'https://portfoliobuilder.vercel.app/',
+  },
+  {
+    title: 'Minimalistic Note Taking Desktop App',
+    snippet: (
+      <>
+        Made using <strong>Electron.js</strong>, <strong>Express.js</strong>,
+        <strong> Quill.js </strong>, <strong> Axios </strong>and
+        <strong> file system(fs)</strong>. Save, delete, view or edit notes
+        stored locally on your desktop, keeping them safe.
+      </>
+    ),
+    productUrl: '',
+    detailPage: 'true',
+  },
+  {
+    title: 'Integrated Timer and Todo App for studying',
+    snippet: (
+      <> Locally saved
+        Made using <strong>Electron.js</strong>, <strong>Express.js</strong>,
+        <strong> Quill.js </strong>, <strong> Axios </strong>and
+        <strong> file system(fs)</strong>. Save, delete, view or edit notes
+        stored locally on your desktop, keeping them safe.
+      </>
+    ),
+    productUrl: 'https://todolistsapp.vercel.app/',
   },
 ];

@@ -13,6 +13,7 @@ const ProjectsContainer = ({ limit }) => {
             snippet={project.snippet}
             key={Math.random()}
             productUrl={project.productUrl}
+            detailPage={project.detailPage}
           />
         );
       })}

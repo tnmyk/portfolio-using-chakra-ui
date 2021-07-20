@@ -1,7 +1,7 @@
 import { Box, Text, useColorModeValue } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
 import { FiExternalLink } from 'react-icons/fi';
-const Project = ({ title, snippet, productUrl }) => {
+const Project = ({ title, snippet, productUrl, detailPage }) => {
   const snippetColor = useColorModeValue('gray.700', 'gray.300');
   const titleColor = useColorModeValue('gray.800', 'gray.200');
   return (
@@ -24,34 +24,39 @@ const Project = ({ title, snippet, productUrl }) => {
         {snippet}
       </Text>
       <Text mt="1rem">
-        <a href={productUrl} target="_blank" rel="noreferrer">
-          <span
-            style={{
-              marginTop: '1rem',
+        {productUrl && (
+          <a href={productUrl} target="_blank" rel="noreferrer">
+            <span
+              style={{
+                marginTop: '1rem',
 
-              fontWeight: 'bold',
-              textDecoration: 'underline',
-            }}
+                fontWeight: 'bold',
+                textDecoration: 'underline',
+              }}
+            >
+              See Product{' '}
+              <FiExternalLink
+                style={{ display: 'inline-flex', marginRight: '2.5rem' }}
+              />
+            </span>
+          </a>
+        )}
+        
+        {detailPage && (
+          <RouterLink
+            to={`/projects/${title.replace(/\s+/g, '-').toLowerCase()}`}
           >
-            See Product{' '}
-            <FiExternalLink
-              style={{ display: 'inline-flex', marginRight: '2.5rem' }}
-            />
-          </span>
-        </a>
-        <RouterLink
-          to={`/projects/${title.replace(/\s+/g, '-').toLowerCase()}`}
-        >
-          <span
-            style={{
-              marginTop: '1rem',
-              fontWeight: 'bold',
-              textDecoration: 'underline',
-            }}
-          >
-            See Details
-          </span>
-        </RouterLink>
+            <span
+              style={{
+                marginTop: '1rem',
+                fontWeight: 'bold',
+                textDecoration: 'underline',
+              }}
+            >
+              See Details
+            </span>
+          </RouterLink>
+        )}
       </Text>
     </Box>
   );

@@ -14,11 +14,11 @@ const ProjectPage = () => {
       <Text fontSize="sm">Created At: {data.date}</Text>
       <Text mt="2rem">{data.body}</Text>
       <HStack mt="4rem" spacing="10px">
-        <a href={data.productUrl} target="_blank" rel="noreferrer">
+        {data.productUrl && <a href={data.productUrl} target="_blank" rel="noreferrer">
           <Button>
             Check the product <ExternalLinkIcon mx="4px" />
           </Button>
-        </a>
+        </a>}
         {data.githubUrl && (
           <a href={data.githubUrl} target="_blank" rel="noreferrer">
             <Button>
