@@ -1,13 +1,13 @@
 export const projects = [
   {
-    title: 'Learn DSA Web App (MVP ready)',
+    title: 'Learn DSA (Web App MVP is ready)',
     snippet: (
       <>
         Currently under development using <strong>Next.js</strong>,{' '}
         <strong>React.js</strong>, <strong>Chakra UI</strong>. In the app
         students can mark their progress using the topic-wise checklist tab,
-        learn from the code snippets and visualize the topics through the graph.{' '}
-        <strong>More to come soon.</strong>
+        learn from the code snippets and visualize the topics through the
+        graphs. <strong>More to come soon.</strong>
       </>
     ),
     productUrl: 'https://learn-dsa.vercel.app/',
@@ -43,11 +43,11 @@ export const projects = [
   {
     title: 'Integrated Timer and Todo App for studying',
     snippet: (
-      <> Locally saved
-        Made using <strong>Electron.js</strong>, <strong>Express.js</strong>,
-        <strong> Quill.js </strong>, <strong> Axios </strong>and
-        <strong> file system(fs)</strong>. Save, delete, view or edit notes
-        stored locally on your desktop, keeping them safe.
+      <>
+        {' '}
+        Made with Vanilla Js, HTML, CSS. This lets you set todo goals and you
+        can track time spent studying and topics completed. Todos are saved
+        using browser local storage.
       </>
     ),
     productUrl: 'https://todolistsapp.vercel.app/',

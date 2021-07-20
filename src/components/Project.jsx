@@ -4,6 +4,11 @@ import { FiExternalLink } from 'react-icons/fi';
 const Project = ({ title, snippet, productUrl, detailPage }) => {
   const snippetColor = useColorModeValue('gray.700', 'gray.300');
   const titleColor = useColorModeValue('gray.800', 'gray.200');
+  const realTitle = (
+    <Text fontWeight="medium" fontSize="1.5rem" color={titleColor}>
+      {title}
+    </Text>
+  );
   return (
     <Box
       mx="1.5rem"
@@ -17,9 +22,15 @@ const Project = ({ title, snippet, productUrl, detailPage }) => {
         borderColor: useColorModeValue('gray.300', 'gray.500'),
       }}
     >
-      <Text fontWeight="medium" fontSize="1.5rem" color={titleColor}>
-        {title}
-      </Text>
+      {detailPage ? (
+        <RouterLink
+          to={`/projects/${title.replace(/\s+/g, '-').toLowerCase()}`}
+        >
+          {realTitle}
+        </RouterLink>
+      ) : (
+        realTitle
+      )}
       <Text ml="0.1rem" color={snippetColor}>
         {snippet}
       </Text>
@@ -41,7 +52,7 @@ const Project = ({ title, snippet, productUrl, detailPage }) => {
             </span>
           </a>
         )}
-        
+
         {detailPage && (
           <RouterLink
             to={`/projects/${title.replace(/\s+/g, '-').toLowerCase()}`}
