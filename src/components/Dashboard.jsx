@@ -67,8 +67,18 @@ const Dashboard = () => {
       <Heading mt="3rem" fontSize="4xl">
         Blogs
       </Heading>
-      <BlogsContainer/>
-      <Heading mt="3rem" fontSize="4xl">
+      <BlogsContainer />
+      <RouterLink to="/blogs">
+        <Button
+          color={useColorModeValue('black', 'white')}
+          colorScheme="gray"
+          ml="2rem"
+          mt="2.5rem"
+        >
+         Read more blogs 📚
+        </Button>
+      </RouterLink>
+      <Heading mt="4rem" fontSize="4xl">
         Timeline
       </Heading>
       <TimelineContainer limit={2} />

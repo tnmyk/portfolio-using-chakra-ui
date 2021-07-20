@@ -33,7 +33,7 @@ const BlogsContainer = ({ limit }) => {
                 </span>
               </h1>
             </Link>
-            <p style={{ color: 'rgb(212, 212, 212)' }}>{blog.snippet}</p>
+            <p >{blog.snippet}</p>
           </>
         );
       })}

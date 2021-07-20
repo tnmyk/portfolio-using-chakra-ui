@@ -13,7 +13,7 @@ import {
   useColorMode,
   useColorModeValue,
   useDisclosure,
-  VStack
+  VStack,
 } from '@chakra-ui/react';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { Link as RouterLink } from 'react-router-dom';
@@ -27,18 +27,27 @@ const NavBar = () => {
         as={RouterLink}
         to="/"
         fontSize={['2rem', '3rem', '2rem', 'md']}
-        fontWeight="medium"
+        fontWeight="sm"
         mr="2rem"
       >
         Dashboard
       </Link>
-
+      <Link
+        onClick={onClose}
+        to="/blogs"
+        as={RouterLink}
+        fontSize={['2rem', '3rem', '2rem', 'md']}
+        fontWeight="sm"
+        mr="2rem"
+      >
+        Blogs
+      </Link>
       <Link
         onClick={onClose}
         to="/timeline"
         as={RouterLink}
         fontSize={['2rem', '3rem', '2rem', 'md']}
-        fontWeight="medium"
+        fontWeight="sm"
         mr="2rem"
       >
         Timeline
@@ -49,7 +58,7 @@ const NavBar = () => {
         to="/projects"
         as={RouterLink}
         fontSize={['2rem', '3rem', '2rem', 'md']}
-        fontWeight="medium"
+        fontWeight="sm"
         mr="2rem"
       >
         Projects
@@ -72,7 +81,7 @@ const NavBar = () => {
     >
       <>
         <RouterLink to="/">
-          <Text fontSize="xl" fontWeight="medium">
+          <Text fontSize="xl" fontWeight="sm">
             Tanmay Kachroo
           </Text>
         </RouterLink>
@@ -85,7 +94,7 @@ const NavBar = () => {
         />
       </Flex>
       <IconButton
-      icon={<BiMenuAltRight/>}
+        icon={<BiMenuAltRight />}
         onClick={onOpen}
         display={['flex', 'flex', 'flex', 'none']}
       ></IconButton>
