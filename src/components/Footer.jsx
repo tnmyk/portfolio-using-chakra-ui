@@ -1,11 +1,6 @@
-import {
-  Flex,
-  Icon,
-  Link,
-  Text, useColorModeValue,
-  VStack
-} from '@chakra-ui/react';
-import { AiOutlineGithub, AiOutlineTwitter } from 'react-icons/ai';
+import { Flex, Icon, Text, useColorModeValue, VStack } from '@chakra-ui/react';
+import { AiOutlineGithub } from 'react-icons/ai';
+import { FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <Flex
@@ -24,14 +19,17 @@ const Footer = () => {
         pt={['0', '3rem']}
         w={['100%', '50%']}
       >
-        <Link to="/">
-          Twitter <Icon ml="1px" mb="2px" as={AiOutlineTwitter} />
-        </Link>
-
-        <Link to="/">
+        <a
+          href="https://www.linkedin.com/in/tanmay-k-0abbb91b7/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn <Icon ml="1px" mb="2px" as={FaLinkedin} />
+        </a>
+        <a href="https://github.com/tnmyk" target="_blank" rel="noreferrer">
           Github
           <Icon ml="3px" mb="2px" as={AiOutlineGithub} />{' '}
-        </Link>
+        </a>
 
         <Text>Email: tanmaykachroo@gmail.com</Text>
       </VStack>
@@ -43,9 +41,9 @@ const Footer = () => {
         p="3rem"
         pb={['2rem', '3rem']}
       >
-        <Link fontSize="lg" to="/">
-          Resume 📗
-        </Link>
+        <a href="/tanmay-kachroo-resume.pdf" target="_blank" rel="noreferrer">
+          My Resume 📗
+        </a>
       </VStack>
     </Flex>
   );

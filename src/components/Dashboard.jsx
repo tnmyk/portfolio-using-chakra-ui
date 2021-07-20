@@ -21,6 +21,7 @@ const Dashboard = () => {
       <Text
         mt="1rem"
         fontSize="lg"
+        mb="2rem"
         color={useColorModeValue('gray.600', 'gray.300')}
       >
         I'm a developer and designer based in India.
@@ -28,7 +29,13 @@ const Dashboard = () => {
         my own products. <br /> I'm always thinking about creating new and
         better products.
       </Text>
-      <Heading mt="4rem" fontSize="4xl">
+      <a href="/tanmay-kachroo-resume.pdf" target="_blank" rel="noreferrer">
+        
+        <Button>
+          My Resume 📗
+        </Button>
+      </a>
+      <Heading mt="2rem" fontSize="4xl">
         Skills
       </Heading>
       <Box color={useColorModeValue('gray.700', 'gray.300')} ml="1rem">

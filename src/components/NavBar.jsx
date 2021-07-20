@@ -46,13 +46,13 @@ const NavBar = () => {
 
       <Link
         onClick={onClose}
-        to="/#contact"
+        to="/projects"
         as={RouterLink}
         fontSize={['2rem', '3rem', '2rem', 'md']}
         fontWeight="medium"
         mr="2rem"
       >
-        Contact
+        Projects
       </Link>
     </>
   );
