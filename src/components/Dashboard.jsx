@@ -67,7 +67,7 @@ const Dashboard = () => {
       <Heading mt="3rem" fontSize="4xl">
         Blogs
       </Heading>
-      <BlogsContainer />
+      <BlogsContainer limit={2}/>
       <RouterLink to="/blogs">
         <Button
           color={useColorModeValue('black', 'white')}

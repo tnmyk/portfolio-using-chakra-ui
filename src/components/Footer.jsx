@@ -20,7 +20,7 @@ const Footer = () => {
         w={['100%', '50%']}
       >
         <a
-          href="https://www.linkedin.com/in/tanmay-k-0abbb91b7/"
+          href="https://www.linkedin.com/in/tanmay-kachroo-0abbb91b7/"
           target="_blank"
           rel="noreferrer"
         >
