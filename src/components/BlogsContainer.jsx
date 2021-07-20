@@ -1,6 +1,6 @@
-import { Box, Heading, useColorModeValue } from '@chakra-ui/react';
-import blogs from '../data/blogs';
+import { Box } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
+import blogs from '../data/blogs';
 const BlogsContainer = ({ limit }) => {
  
   return (
@@ -8,7 +8,7 @@ const BlogsContainer = ({ limit }) => {
       {blogs.map((blog, index) => {
         if (index > limit) return '';
         return (
-          <>
+          <div key={index}>
             <Link
               to={'/blogs/' + blog.title.replace(/\s+/g, '-').toLowerCase()}
             >
@@ -34,7 +34,7 @@ const BlogsContainer = ({ limit }) => {
               </h1>
             </Link>
             <p >{blog.snippet}</p>
-          </>
+          </div>
         );
       })}
     </Box>
