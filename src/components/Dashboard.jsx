@@ -8,6 +8,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
+import BlogsContainer from './BlogsContainer';
 import Contact from './Contact';
 import ProjectsContainer from './ProjectsContainer';
 import TimelineContainer from './TimelineContainer';
@@ -63,6 +64,10 @@ const Dashboard = () => {
           <ListItem>Figma</ListItem>
         </UnorderedList>
       </Box>
+      <Heading mt="3rem" fontSize="4xl">
+        Blogs
+      </Heading>
+      <BlogsContainer/>
       <Heading mt="3rem" fontSize="4xl">
         Timeline
       </Heading>
