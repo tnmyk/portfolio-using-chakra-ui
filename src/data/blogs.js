@@ -18,14 +18,23 @@ const blogs = [
     I m 100% planning to use Next.js for my next project.
     
     `,
-    imageUrl:'/blogs/nextblogtweet.png',
+    imageUrl: '/blogs/nextblogtweet.png',
     date: '20 July 2021',
   },
   {
     title: 'React.js',
     snippet: 'Switching from plain HTML,CSS & Js to React.js',
-    body: 'asdasd',
+    body: `React.js is one of the most famous frontend frameworks.
+React allows developers to break down the web app's whole UI into smaller components (basically into Javascript functions) which can be used again and again preventing the re-writing of code.
+
+The components made by the developers are functions that return JSX(JavaScript XML) which works as combinations of JS and HTML code.
+We can also give 'props' to the components just as we give arguments to functions. These props can set specific properties of the "children" inside the component.
+
+React Hooks are special functions that let you “hook onto” React state and lifecycle features inside function components. This makes the development of UI which reacts to the state much easier than what it used to be in previous React versions.
+
+React JS also solved my problem of writing repetitive HTML, Js code.`,
     date: '23 June 2021',
+    imageUrl:'/blogs/react.png'
   },
 ];
 

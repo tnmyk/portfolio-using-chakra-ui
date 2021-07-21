@@ -18,7 +18,7 @@ const BlogPage = () => {
       <Text fontSize="sm">Created At: {data.date}</Text>
       <Text mb="4rem" fontSize="1.1rem" mt="2rem" whiteSpace="pre-line">
         {data.body}
-        <Box width={["90%","80%",'70%','60%']} mx='auto' my='1rem'>
+        <Box width={['90%', '80%', '70%', '60%']} mx="auto" my="1rem" mt="3rem">
           {data.imageUrl && <img src={data.imageUrl} alt="" width="100%" />}
         </Box>
       </Text>
