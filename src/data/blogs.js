@@ -18,7 +18,7 @@ const blogs = [
     I m 100% planning to use Next.js for my next project.
     
     `,
-    imageUrl:'/nextblogtweet.png',
+    imageUrl:'/blogs/nextblogtweet.png',
     date: '20 July 2021',
   },
   {
