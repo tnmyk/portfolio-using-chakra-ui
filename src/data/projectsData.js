@@ -51,7 +51,8 @@ export const projectsData = {
         structures and algoriths from. <br />
         The website also contains topic-wise checklist in which others can mark
         their progress and it will be saved automatically in the localStorage,
-        marking the date at which the person completed the topic.
+        marking the date at which the person completed the topic. <br/>
+        Their is also a network graph which will make the classifications and how DSA concepts are interlinked clearer.
         <br />
         Project is being developed every day and soon the network graph will be
         added which will make learning the topics a lot more easier.
@@ -69,8 +70,7 @@ export const projectsData = {
         I also used Canva for making graphic designs shown in the cards in the
         home page. <br />
         <br />
-        Currently, I m working on adding more DSA topics and adding the network
-        graph which will make learning the topics a lot more easier.
+        Currently, I m working on adding more DSA topics.
       </>
     ),
   },

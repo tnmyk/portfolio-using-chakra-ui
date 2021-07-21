@@ -7,7 +7,7 @@ export const projects = [
         <strong>React.js</strong>, <strong>Chakra UI</strong>. In the app
         students can mark their progress using the topic-wise checklist tab,
         learn from the code snippets and visualize the topics through the
-        graphs. <strong>More to come soon.</strong>
+        network graphs. <strong>More to come soon.</strong>
       </>
     ),
     productUrl: 'https://learn-dsa.vercel.app/',
