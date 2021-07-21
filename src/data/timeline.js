@@ -8,7 +8,7 @@ export const timeline = [
     body: 'Started making "Learn DSA" web-project Using Next.js, React.js, Chakra UI etc to share my DSA notes.',
   },
   {
-    date: '15 July, 2021',
+    date: '14 July, 2021',
     body: 'Started learning Next.js',
   },
   {
