@@ -43,7 +43,7 @@ export const projectsData = {
     body: (
       <>
         {' '}
-        Made using Next.js, React.js, Chakra UI etc.
+        Made using Vis.js, Next.js, React.js, Chakra UI etc.
         <br />
         <br />
         Website made by me while learning DSA myself. Currently under
@@ -51,8 +51,9 @@ export const projectsData = {
         structures and algoriths from. <br />
         The website also contains topic-wise checklist in which others can mark
         their progress and it will be saved automatically in the localStorage,
-        marking the date at which the person completed the topic. <br/>
-        Their is also a network graph which will make the classifications and how DSA concepts are interlinked clearer.
+        marking the date at which the person completed the topic. <br />
+        Their is also a network graph which will make the classifications and
+        how DSA concepts are interlinked clearer.
         <br />
         Project is being developed every day and soon the network graph will be
         added which will make learning the topics a lot more easier.
