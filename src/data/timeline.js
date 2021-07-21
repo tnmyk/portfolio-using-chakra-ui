@@ -5,7 +5,7 @@ const B =({children})=>{
 export const timeline = [
   {
     date: '18 July, 2021',
-    body: 'Started making "Learn DSA" web-project Using Next.js, React.js, Chakra UI etc to share my DSA notes.',
+    body: 'Started making "Learn DSA" web-project Using Next.js, React.js, Chakra UI,Vis.js etc to share my DSA notes.',
   },
   {
     date: '14 July, 2021',
