@@ -4,8 +4,8 @@ export const projects = [
     snippet: (
       <>
         Currently under development using <strong>Vis.js</strong>, <strong>Next.js</strong>,{' '}
-        <strong>React.js</strong>, <strong>Chakra UI</strong>. In the app
-        students can mark their progress using the topic-wise checklist tab,
+        <strong>React.js</strong>, <strong>Chakra UI</strong> and graphics were made by me on Adobe Illustrator and Canva. In the app
+        we can mark our progress using the topic-wise checklist tab,
         learn from the code snippets and visualize the topics through the
         network graphs. <strong>More to come soon.</strong>
       </>
