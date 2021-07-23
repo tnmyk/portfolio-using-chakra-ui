@@ -43,7 +43,7 @@ export const projectsData = {
     body: (
       <>
         {' '}
-        Made using Vis.js, Next.js, React.js, Chakra UI etc.
+        Made using Vis.js, Next.js, React.js, Chakra UI, Adobe Illustrator, Canva etc.
         <br />
         <br />
         Website made by me while learning DSA myself. Currently under
