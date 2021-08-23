@@ -1,13 +1,37 @@
 export const projects = [
   {
+    title: 'Live Public Chatrooms',
+    snippet: (
+      <>
+        Set your username and talk to multiple online users and create your own
+        chatrooms and share images. <br />
+        Made Using <strong>React.js</strong>,Web sockets (
+        <strong>Socket.io</strong>), <strong>Chakra UI</strong> etc.
+      </>
+    ),
+    productUrl: 'https://chatroomsonline.vercel.app/',
+    
+  },
+  {
+    title: 'Typing Speed Test',
+    snippet: (
+      <>
+        Made using <strong>React.js</strong>
+      </>
+    ),
+    productUrl: 'https://typingspeedtester.vercel.app/',
+  },
+
+  {
     title: 'Learn DSA (Web App MVP is ready)',
     snippet: (
       <>
-        Currently under development using <strong>Vis.js</strong>, <strong>Next.js</strong>,{' '}
-        <strong>React.js</strong>, <strong>Chakra UI</strong>. In the app
-        students can mark their progress using the topic-wise checklist tab,
-        learn from the code snippets and visualize the topics through the
-        network graphs. <strong>More to come soon.</strong>
+        Currently under development using <strong>Vis.js</strong>,{' '}
+        <strong>Next.js</strong>, <strong>React.js</strong>,{' '}
+        <strong>Chakra UI</strong>. In the app students can mark their progress
+        using the topic-wise checklist tab, learn from the code snippets and
+        visualize the topics through the network graphs.{' '}
+        <strong>More to come soon.</strong>
       </>
     ),
     productUrl: 'https://learn-dsa.vercel.app/',
