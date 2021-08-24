@@ -32,7 +32,7 @@ const NavBar = () => {
       >
         Dashboard
       </Link>
-      <Link
+      {/* <Link
         onClick={onClose}
         to="/blogs"
         as={RouterLink}
@@ -41,7 +41,7 @@ const NavBar = () => {
         mr="2rem"
       >
         Blogs
-      </Link>
+      </Link> */}
       <Link
         onClick={onClose}
         to="/timeline"

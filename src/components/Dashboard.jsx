@@ -64,7 +64,7 @@ const Dashboard = () => {
           <ListItem>Figma</ListItem>
         </UnorderedList>
       </Box>
-      <Heading mt="3rem" fontSize="4xl">
+      {/* <Heading mt="3rem" fontSize="4xl">
         Blogs
       </Heading>
       <BlogsContainer limit={2}/>
@@ -77,7 +77,7 @@ const Dashboard = () => {
         >
          Read more blogs 📚
         </Button>
-      </RouterLink>
+      </RouterLink> */}
       <Heading mt="4rem" fontSize="4xl">
         Timeline
       </Heading>
