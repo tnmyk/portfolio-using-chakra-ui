@@ -9,8 +9,8 @@ import ScrollToTop from './components/ScrollToTop';
 import Timeline from './components/Timeline';
 import Projects from './components/Projects';
 import ThankYou from './components/ThankYou';
-import Blogs from './components/Blogs';
-import BlogPage from './components/BlogPage';
+// import Blogs from './components/Blogs';
+// import BlogPage from './componen ts/BlogPage';
 const App = () => {
   return (
     <Router>
