@@ -25,8 +25,8 @@ const App = () => {
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/projects/:project" component={ProjectPage} />
             <Route exact path="/thank-you" component={ThankYou} />
-            <Route exact path="/blogs" component={Blogs} />
-            <Route exact path="/blogs/:blog" component={BlogPage} />
+            {/* <Route exact path="/blogs" component={Blogs} /> */}
+            {/* <Route exact path="/blogs/:blog" component={BlogPage} /> */}
             <Route exact path="*" component={Error} />
           </Switch>
         </Box>

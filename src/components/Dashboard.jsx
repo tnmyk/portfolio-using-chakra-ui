@@ -8,7 +8,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
-import BlogsContainer from './BlogsContainer';
+// import BlogsContainer from './BlogsContainer';
 import Contact from './Contact';
 import ProjectsContainer from './ProjectsContainer';
 import TimelineContainer from './TimelineContainer';
@@ -77,7 +77,8 @@ const Dashboard = () => {
         >
          Read more blogs 📚
         </Button>
-      </RouterLink> */}
+      </RouterLink> */
+      }
       <Heading mt="4rem" fontSize="4xl">
         Timeline
       </Heading>
