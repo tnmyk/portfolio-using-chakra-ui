@@ -26,9 +26,9 @@ const Dashboard = () => {
         color={useColorModeValue('gray.600', 'gray.300')}
       >
         I'm a developer and designer based in India.
-        <br /> I'm recently started ❤ing React.js. I also like UX/UI Designing
-        my own products. <br /> I'm always thinking about creating new and
-        better products.
+        <br /> React.js enthusiast. I also like UX/UI Designing my own
+        projects. <br /> I'm always striving to create better
+        products.
       </Text>
       <a href="/tanmay-kachroo-resume.pdf" target="_blank" rel="noreferrer">
         <Button>My Resume 📗</Button>
@@ -77,8 +77,7 @@ const Dashboard = () => {
         >
          Read more blogs 📚
         </Button>
-      </RouterLink> */
-      }
+      </RouterLink> */}
       <Heading mt="4rem" fontSize="4xl">
         Timeline
       </Heading>

@@ -6,7 +6,7 @@ import TimelineContainer from './TimelineContainer';
 const Timeline = () => {
   return (
     <Box mt="3rem">
-      <Heading>What should I add here next?</Heading>
+      <Heading>My Timeline</Heading>
       <TimelineContainer limit="1000" />
     </Box>
   );
