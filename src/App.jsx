@@ -9,13 +9,17 @@ import ScrollToTop from './components/ScrollToTop';
 import Timeline from './components/Timeline';
 import Projects from './components/Projects';
 import ThankYou from './components/ThankYou';
+import Helmet from 'react-helmet';
 // import Blogs from './components/Blogs';
 // import BlogPage from './componen ts/BlogPage';
 const App = () => {
   return (
     <Router>
+      <Helmet>
+        <meta name="description" content="Tanmay kachroo's portfolio website" />
+        <meta name="keywords" content="Tanmay Kachroo, portfolio, developer" />
+      </Helmet>
       <NavBar />
-
       <Box minH="100vh" pt="7rem" bgColor={useColorModeValue('white', 'black')}>
         <Box width={['80%', '70%', '60%']} marginX="auto" minH="40vh">
           <ScrollToTop />
@@ -30,7 +34,6 @@ const App = () => {
             <Route exact path="*" component={Error} />
           </Switch>
         </Box>
-
         <Footer />
       </Box>
     </Router>
