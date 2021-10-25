@@ -17,7 +17,7 @@ const Dashboard = () => {
   return (
     <Box>
       <Heading mt="5rem" fontSize={['3xl', '4xl', '4xl', '5xl']}>
-        Hi! I m Tanmay 👋
+        Hi! I'm Tanmay 👋
       </Heading>
       <Text
         mt="1rem"
@@ -25,9 +25,10 @@ const Dashboard = () => {
         mb="2rem"
         color={useColorModeValue('gray.600', 'gray.300')}
       >
-        I'm a developer and designer based in India.
-        <br /> React.js enthusiast. I also like UX/UI Designing my own projects.{' '}
-        <br /> I'm always striving to create better products.
+        I'm a student and web-developer based in India.
+        <br /> I am a React.js enthusiast. I also like UX/UI Designing my own
+        projects.
+        <br /> I love creating products.
       </Text>
       <a href="/tanmay-kachroo-resume.pdf" target="_blank" rel="noreferrer">
         <Button>My Resume 📗</Button>
@@ -42,12 +43,11 @@ const Dashboard = () => {
         <UnorderedList ml="2.5rem" mt="0.5rem">
           <ListItem>React.js</ListItem>
           <ListItem>Next.js</ListItem>
+          <ListItem>Firebase</ListItem>
+          <ListItem>Socket.io</ListItem>
           <ListItem>Chakra UI</ListItem>
           <ListItem>Node.js</ListItem>
-          <ListItem>Firebase</ListItem>
-          <ListItem>Javascript</ListItem>
-          <ListItem>HTML</ListItem>
-          <ListItem>CSS</ListItem>
+          <ListItem>Javascript, HTML, CSS</ListItem>
           <ListItem>Sometimes I also use MongoDB, C++, Python etc.</ListItem>
         </UnorderedList>
         <Text fontSize="lg" fontWeight="bold" mt="1rem">
@@ -61,6 +61,7 @@ const Dashboard = () => {
         </Text>
         <UnorderedList ml="2.5rem" mt="0.5rem">
           <ListItem>Figma</ListItem>
+          <ListItem>Canva</ListItem>
         </UnorderedList>
       </Box>
       {/* <Heading mt="3rem" fontSize="4xl">

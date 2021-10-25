@@ -1,6 +1,6 @@
 import { Box, useColorModeValue } from '@chakra-ui/react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Dashboard from './components/Home/Dashboard';
+import Dashboard from './components/Dashboard/Dashboard';
 import Error from './components/Error';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
