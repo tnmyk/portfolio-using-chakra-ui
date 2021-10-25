@@ -10,8 +10,8 @@ import {
 import { Link as RouterLink } from 'react-router-dom';
 // import BlogsContainer from './BlogsContainer';
 import Contact from './Contact';
-import ProjectsContainer from './ProjectsContainer';
-import TimelineContainer from './TimelineContainer';
+import ProjectsContainer from '../Projects/ProjectsContainer';
+import TimelineContainer from '../Timeline/TimelineContainer';
 
 const Dashboard = () => {
   return (
@@ -26,9 +26,8 @@ const Dashboard = () => {
         color={useColorModeValue('gray.600', 'gray.300')}
       >
         I'm a developer and designer based in India.
-        <br /> React.js enthusiast. I also like UX/UI Designing my own
-        projects. <br /> I'm always striving to create better
-        products.
+        <br /> React.js enthusiast. I also like UX/UI Designing my own projects.{' '}
+        <br /> I'm always striving to create better products.
       </Text>
       <a href="/tanmay-kachroo-resume.pdf" target="_blank" rel="noreferrer">
         <Button>My Resume 📗</Button>
@@ -108,8 +107,7 @@ const Dashboard = () => {
         </Button>
       </RouterLink>
       <div id="contact" style={{ scrollMarginTop: '9rem' }}>
-        {' '}
-        <Contact />{' '}
+        <Contact />
       </div>
     </Box>
   );

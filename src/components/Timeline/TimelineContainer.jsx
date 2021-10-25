@@ -1,5 +1,5 @@
 import { Box, useColorModeValue } from "@chakra-ui/react";
-import { timeline } from "../data/timeline";
+import { timeline } from "../../data/timeline";
 import TimelineEvent from "./TimelineEvent";
 
 const TimelineContainer = ({limit}) => {

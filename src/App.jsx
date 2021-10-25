@@ -1,13 +1,13 @@
 import { Box, useColorModeValue } from '@chakra-ui/react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Dashboard from './components/Dashboard';
+import Dashboard from './components/Home/Dashboard';
 import Error from './components/Error';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
-import ProjectPage from './components/ProjectPage';
+import ProjectPage from './components/Projects/ProjectPage';
 import ScrollToTop from './components/ScrollToTop';
-import Timeline from './components/Timeline';
-import Projects from './components/Projects';
+import Timeline from './components/Timeline/Timeline';
+import Projects from './components/Projects/Projects';
 import ThankYou from './components/ThankYou';
 import Helmet from 'react-helmet';
 // import Blogs from './components/Blogs';

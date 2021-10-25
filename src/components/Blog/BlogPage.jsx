@@ -1,7 +1,7 @@
 import { Box, Heading, Text } from '@chakra-ui/react';
 import { useParams, Link } from 'react-router-dom';
-import blogs from '../data/blogs';
-import Error from './Error';
+import blogs from '../../data/blogs';
+import Error from '../Error';
 
 const BlogPage = () => {
   const { blog } = useParams();

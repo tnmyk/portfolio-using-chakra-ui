@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import { projects } from "../data/projects";
+import { projects } from "../../data/projects";
 import Project from "./Project";
 
 const ProjectsContainer = ({ limit }) => {

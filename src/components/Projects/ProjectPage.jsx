@@ -2,9 +2,9 @@ import { ExternalLinkIcon } from '@chakra-ui/icons';
 import { Box, Button, Heading, HStack, Icon, Text } from '@chakra-ui/react';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import { projectsData } from '../data/projectsData';
+import { projectsData } from '../../data/projectsData';
 import { AiOutlineGithub } from 'react-icons/ai';
-import Error from './Error';
+import Error from '../Error';
 const ProjectPage = () => {
   const { project } = useParams();
   const data = projectsData[project];
