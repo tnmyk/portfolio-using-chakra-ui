@@ -45,6 +45,7 @@ const Dashboard = () => {
           <ListItem>React.js</ListItem>
           <ListItem>Next.js</ListItem>
           <ListItem>Firebase</ListItem>
+          <ListItem>Typescript</ListItem>
           <ListItem>Socket.io</ListItem>
           <ListItem>Chakra UI</ListItem>
           <ListItem>Node.js</ListItem>
