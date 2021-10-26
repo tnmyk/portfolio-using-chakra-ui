@@ -6,7 +6,7 @@ const workExperiences = [
     description: (
       <>
         I worked on their web app mainly using <b>React.js</b> and{' '}
-        <b>Firebase</b> in the 2-months internship.
+        <b>Firebase</b> in the 2-months internship. Handled the authentication using Firebase Auth and and used Firestore as database.
       </>
     ),
   },

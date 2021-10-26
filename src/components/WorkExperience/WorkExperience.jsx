@@ -15,7 +15,7 @@ const WorkExperience = ({ workExperience }) => {
       <Text
         display="inline"
         verticalAlign="3px"
-        fontSize="0.9rem"
+        fontSize="0.85rem"
         ml="0.1rem"
         color={workExperience.snippetColor}
       >
