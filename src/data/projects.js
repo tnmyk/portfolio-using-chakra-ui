@@ -10,6 +10,23 @@ export const projects = [
       </>
     ),
     productUrl: 'https://chatroomsonline.vercel.app/',
+    github: 'https://github.com/tnmyk/chatrooms-using-socket-io',
+  },
+  {
+    title: 'Learn Blockchain webapp',
+    snippet: (
+      <>
+        Built using <strong>Next.js</strong>, <strong>Crypto.js</strong> (SHA256
+        encryption standard), <strong>Sawo Labs API</strong>,{' '}
+        <strong>Firebase</strong>, etc. <br />
+         Intro to blockchain technology for beginners. Visualize and
+        interact with blocks and learn the meaning behind it. The new users are
+        also visualize as blocks in the an API with hashes. Made by me for a 4
+        days long hackathon.
+      </>
+    ),
+    productUrl: 'https://github.com/tnmyk/learn-blockchain',
+    github: 'https://github.com/tnmyk/learn-dsa',
   },
   {
     title: 'Typing Speed Test',
@@ -19,6 +36,7 @@ export const projects = [
       </>
     ),
     productUrl: 'https://typingspeedtester.vercel.app/',
+    github: 'https://github.com/tnmyk/typing-speed-test',
   },
 
   {
@@ -34,7 +52,7 @@ export const projects = [
       </>
     ),
     productUrl: 'https://learn-dsa.vercel.app/',
-    detailPage: 'true',
+    github: 'https://github.com/tnmyk/learn-dsa',
   },
   {
     title: 'Portfolio Builder',
@@ -46,9 +64,8 @@ export const projects = [
         and other important details.
       </>
     ),
-    detailPage: 'true',
-
     productUrl: 'https://portfoliobuilder.vercel.app/',
+    github: 'https://github.com/tnmyk/portfolio-builder',
   },
   {
     title: 'Minimalistic Note Taking Desktop App',
@@ -61,7 +78,7 @@ export const projects = [
       </>
     ),
     productUrl: '',
-    detailPage: 'true',
+    github: 'https://github.com/tnmyk/notes-app',
   },
   {
     title: 'Integrated Timer and Todo App for studying',

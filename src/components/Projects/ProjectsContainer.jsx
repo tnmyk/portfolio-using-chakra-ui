@@ -1,6 +1,6 @@
-import { Box } from "@chakra-ui/react";
-import { projects } from "../../data/projects";
-import Project from "./Project";
+import { Box } from '@chakra-ui/react';
+import { projects } from '../../data/projects';
+import Project from './Project';
 
 const ProjectsContainer = ({ limit }) => {
   return (
@@ -14,6 +14,7 @@ const ProjectsContainer = ({ limit }) => {
             key={Math.random()}
             productUrl={project.productUrl}
             detailPage={project.detailPage}
+            github={project.github}
           />
         );
       })}
