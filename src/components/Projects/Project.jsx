@@ -15,7 +15,7 @@ const Project = ({ title, snippet, productUrl, detailPage }) => {
       my="2rem"
       boxShadow="base"
       p="6"
-      borderRadius="lg"
+      borderRadius="5"
       border="1px"
       borderColor={useColorModeValue('gray.200', 'gray.600')}
       _hover={{

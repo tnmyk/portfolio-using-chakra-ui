@@ -12,6 +12,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import Contact from './Contact';
 import ProjectsContainer from '../Projects/ProjectsContainer';
 import TimelineContainer from '../Timeline/TimelineContainer';
+import WorkExperienceContainer from '../WorkExperience/WorkExperienceContainer';
 
 const Dashboard = () => {
   return (
@@ -28,7 +29,7 @@ const Dashboard = () => {
         I'm a student and web-developer based in India.
         <br /> I am a React.js enthusiast. I also like UX/UI Designing my own
         projects.
-        <br /> I love creating products.
+        {/* <br /> I love creating products. */}
       </Text>
       <a href="/tanmay-kachroo-resume.pdf" target="_blank" rel="noreferrer">
         <Button>My Resume 📗</Button>
@@ -78,6 +79,11 @@ const Dashboard = () => {
          Read more blogs 📚
         </Button>
       </RouterLink> */}
+      <Heading mt="4rem" fontSize="4xl">
+        Work Experience
+      </Heading>
+      <WorkExperienceContainer />
+
       <Heading mt="4rem" fontSize="4xl">
         Timeline
       </Heading>
