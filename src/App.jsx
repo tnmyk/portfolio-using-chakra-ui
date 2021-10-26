@@ -21,7 +21,7 @@ const App = () => {
       </Helmet>
       <NavBar />
       <Box minH="100vh" pt="7rem" bgColor={useColorModeValue('white', 'black')}>
-        <Box width={['80%', '70%', '60%']} marginX="auto" minH="40vh">
+        <Box width={['85%', '70%', '60%']} marginX="auto" minH="40vh">
           <ScrollToTop />
           <Switch>
             <Route exact path="/" component={Dashboard} />

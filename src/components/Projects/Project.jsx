@@ -11,7 +11,7 @@ const Project = ({ title, snippet, productUrl, detailPage }) => {
   );
   return (
     <Box
-      mx="1.5rem"
+      mx={['0.5rem', '1.5rem', '1.5rem', '1.5rem']}
       my="2rem"
       boxShadow="base"
       p="6"
