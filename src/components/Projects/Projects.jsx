@@ -8,19 +8,23 @@ const Timeline = () => {
       <Heading>My Products</Heading>
       <ProjectsContainer limit="1000" />
 
-      <Box textAlign='center'>
-
-      View more of my projects on{' '}
-      <a target="_blank" rel="noreferrer" href="https://github.com/tnmyk" style={{textDecoration:'underline'}}>
-       my Github
-        <AiOutlineGithub
-          style={{
-            display: 'inline-flex',
-            marginLeft: '0.2rem',
-            verticalAlign: '-2px',
-          }}
-        />
-      </a>
+      <Box textAlign="center">
+        View more of my projects on{' '}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/tnmyk"
+          style={{ textDecoration: 'underline' }}
+        >
+          my Github
+          <AiOutlineGithub
+            style={{
+              display: 'inline-flex',
+              marginLeft: '0.2rem',
+              verticalAlign: '-2px',
+            }}
+          />
+        </a>
       </Box>
     </Box>
   );
