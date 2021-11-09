@@ -19,13 +19,13 @@ export const projects = [
         Built using <strong>Next.js</strong>, <strong>Crypto.js</strong> (SHA256
         encryption standard), <strong>Sawo Labs API</strong>,{' '}
         <strong>Firebase</strong>, etc. <br />
-         Intro to blockchain technology for beginners. Visualize and
-        interact with blocks and learn the meaning behind it. The new users are
-        also visualize as blocks in the an API with hashes. Made by me for a 4
-        days long hackathon.
+        Intro to blockchain technology for beginners. Visualize and interact
+        with blocks and learn the meaning behind it. The new users are also
+        visualize as blocks in the an API with hashes. Made by me for a 4 days
+        long hackathon.
       </>
     ),
-    productUrl: 'https://github.com/tnmyk/learn-blockchain',
+    productUrl: 'https://learnblockchain.vercel.app/',
     github: 'https://github.com/tnmyk/learn-dsa',
   },
   {
