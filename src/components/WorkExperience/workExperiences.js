@@ -1,6 +1,17 @@
 const workExperiences = [
   {
     position: 'Web Developer Intern',
+    duration: 'Dec, 2021 - Present',
+    companyName: 'Spacenos',
+    description: (
+      <>
+        Working on their web apps mainly using <b>React.js</b>, <b>Redux</b>,{' '}
+        <b>firebase</b>
+      </>
+    ),
+  },
+  {
+    position: 'Web Developer Intern',
     duration: 'Sept, 2021 - Nov, 2021',
     companyName: 'Protégé',
     description: (
