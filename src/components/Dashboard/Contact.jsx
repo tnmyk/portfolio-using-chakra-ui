@@ -20,7 +20,7 @@ const Contact = () => {
       <Text mx="0.2rem">Let's start building something together</Text>
       <Box width={['100%', '65%']} mt="2rem" ml="1rem">
         <form
-          action="https://formsubmit.co/tanmaykachroo@gmail.com"
+          action="https://formsubmit.co/tanmay  @gmail.com"
           method="POST"
         >
           <input type="hidden" name="_captcha" value="false" />

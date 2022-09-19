@@ -31,7 +31,7 @@ const Dashboard = () => {
         projects.
         {/* <br /> I love creating products. */}
       </Text>
-      <a href="/tanmay-kachroo-resume.pdf" target="_blank" rel="noreferrer">
+      <a href="/tanmay-  -resume.pdf" target="_blank" rel="noreferrer">
         <Button>My Resume 📗</Button>
       </a>
       <Heading mt="2rem" fontSize="4xl">

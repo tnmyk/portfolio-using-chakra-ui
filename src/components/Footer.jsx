@@ -20,7 +20,7 @@ const Footer = () => {
         w={['100%', '50%']}
       >
         <a
-          href="https://www.linkedin.com/in/tanmay-kachroo-0abbb91b7/"
+          href="https://www.linkedin.com/in/tanmay-  -0abbb91b7/"
           target="_blank"
           rel="noreferrer"
         >
@@ -31,7 +31,7 @@ const Footer = () => {
           <Icon ml="3px" mb="2px" as={AiOutlineGithub} />{' '}
         </a>
 
-        <Text>Email: tanmaykachroo@gmail.com</Text>
+        <Text>Email: tanmay  @gmail.com</Text>
       </VStack>
       <VStack
         spacing="1rem"
@@ -41,7 +41,7 @@ const Footer = () => {
         p="3rem"
         pb={['2rem', '3rem']}
       >
-        <a href="/tanmay-kachroo-resume.pdf" target="_blank" rel="noreferrer">
+        <a href="/tanmay-  -resume.pdf" target="_blank" rel="noreferrer">
           My Resume 📗
         </a>
       </VStack>

@@ -82,7 +82,7 @@ const NavBar = () => {
       <>
         <RouterLink to="/">
           <Text fontSize="xl" fontWeight="sm">
-            Tanmay Kachroo
+            Tanmay   
           </Text>
         </RouterLink>
       </>

@@ -16,8 +16,8 @@ const App = () => {
   return (
     <Router>
       <Helmet>
-        <meta name="description" content="Tanmay kachroo's portfolio website" />
-        <meta name="keywords" content="Tanmay Kachroo, portfolio, developer" />
+        <meta name="description" content="Tanmay   's portfolio website" />
+        <meta name="keywords" content="Tanmay   , portfolio, developer" />
       </Helmet>
       <NavBar />
       <Box minH="100vh" pt="7rem" bgColor={useColorModeValue('white', 'black')}>
